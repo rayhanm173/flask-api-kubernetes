@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  APP_ENV: production
+  DB_HOST: postgres
+  POSTGRES_DB: appdb
+  POSTGRES_USER: appuser
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: project2
