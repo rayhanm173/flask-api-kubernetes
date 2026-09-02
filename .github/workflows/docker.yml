@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+rayhan173/flask-api:<full-git-commit-sha>name: Build and Push Docker Image
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: rayhan173/flask-api:latest
+          tags: rayhan173/flask-api:<full-git-commit-sha>
