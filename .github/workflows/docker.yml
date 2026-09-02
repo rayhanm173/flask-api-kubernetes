@@ -1,4 +1,4 @@
-rayhan173/flask-api:<full-git-commit-sha>name: Build and Push Docker Image
+name: Build and Push Docker Image
 
 on:
   push:
