@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: rayhan173/flask-api:<full-git-commit-sha>
+          tags: rayhan173/flask-api:${{ github.sha }}
